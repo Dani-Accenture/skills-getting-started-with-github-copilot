@@ -132,6 +132,66 @@ button:hover {
   border: 1px solid #bee5eb;
 }
 
+/* Participants list styling */
+.activity-participants {
+  margin-top: 12px;
+}
+
+.participants-heading {
+  color: #333;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.participants-list {
+  margin: 6px 0 0 0;
+  padding: 8px 10px;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #f0f0f0;
+  max-height: 120px;
+  overflow: auto;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+  list-style: none;
+}
+
+.participants-list li {
+  margin-bottom: 6px;
+  color: #444;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.participant-remove {
+  background: #ffebee;
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.participant-remove:hover {
+  background: #ffcdd2;
+}
+
+.participant-email {
+  word-break: break-word;
+}
+
+.no-participants {
+  margin-top: 8px;
+  color: #666;
+  font-style: italic;
+}
+
 .hidden {
   display: none;
 }
